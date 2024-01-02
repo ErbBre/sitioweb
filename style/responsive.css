@@ -1,0 +1,106 @@
+/*Una vez alcance los 1490px realizas el cambio*/
+@media screen and (max-width: 1920px) {
+    .show{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin: auto;
+    }
+}
+    @media screen and (max-width: 1500px) {
+    
+    #datos_perfil>h2{
+        font-size: 60px;
+    }
+    #datos_perfil>h3{
+        font-size: 20px;
+        margin: 20px auto;
+        width: 100%;
+        /* background-color: #0e76a8; */
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #main_article{
+        flex-direction: column-reverse; 
+        padding: 20px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    #linknav{
+        display: flex;
+        /* background-color: black; */
+        width: 100%;  
+        border-bottom: 4px solid white;
+    }
+    li{
+        width: 100%;
+        /* background-color: aqua; */
+        /* padding: 20px; */
+    }
+    /* OCULTA EL MENU HORIZONTAL Y MUESTRA EL BOTON */
+    .show{
+        display: flex;
+        /* background-color: rgba(0,0,0, 0.9); */
+        flex-direction: column;
+        padding: 30px 0px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 40px;
+        /* margin: auto; */
+        margin-bottom: 20px;
+        
+    }
+    .link_list{
+        display: none;
+    }
+    #nav_small{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 10px;
+        /* background-color: blue; */
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+    }
+    #show_menu{
+        display: flex;
+        /* margin: auto; */
+        align-items: center;
+        height: 70%;
+    }
+    #navigator{
+        /* background-color: blueviolet; */
+        padding: 0vh 2vh;
+        margin: 0vh;
+        flex-direction: column;
+        /* height: 80%; */
+        align-items: center;
+        justify-content: start;
+    }
+}
+@media screen and (max-width: 720px) {
+    #main_article{
+        padding: 10px;
+        border-radius: 30px;
+    }
+    #datos_perfil>h2{
+        font-size: 30px;
+    }
+    #datos_perfil>h3{
+        font-size: 14px;
+    }
+    #table_code{
+        height: 20vh;
+        padding: 0px;
+    }
+    #code{
+        padding: 5px;
+        font-size: 10px;
+    }
+
+}

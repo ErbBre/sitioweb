@@ -1,0 +1,120 @@
+#main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: center;
+    background-color: rgba(0, 0, 0,0.5);
+
+}
+#main_article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+    height: max-content;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    padding: 50px;
+    gap: 20px;
+    border-radius: 50px;
+    color: white;
+}
+#perfil{
+    filter: grayscale(0);
+    transition: 0.5s;
+    border-radius: 100%;
+}
+#perfil:hover{
+    filter: grayscale();
+}
+
+#datos_perfil{
+    font-family: 'Lucida Sans';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+}
+#datos_perfil>h3{
+    font-size: 30px;
+    margin: 20px auto;
+    width: 100%;
+}
+#datos_perfil>h2{
+    font-size: 80px;
+    margin: 0px;
+    width: 100%;
+}
+
+
+/* BOTONES  LINKEDIN Y GITHUB */
+#btn{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#btn_linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    color: #0e76a8;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    cursor: pointer;
+}
+#in{
+    background-color: #0e76a8;
+    color: white;
+    border-radius: 5px;
+    padding: 0px 2px;
+}
+#btn_git{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+    width: 50%;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+#icon_git{
+    width: 25px;
+}
+#btn_git:hover{
+    cursor: pointer;
+}
+
+/* ESTILO DE TABLA DE CODIGO */
+#table_code{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: black;
+    width: fit-content;
+    height: 19vh;
+    padding: 30px;
+    display: flex;
+    align-items: start;
+    border-radius: 20px;
+}
+#code{
+    height: max-content;
+    width: fit-content;
+    border-radius: 20px;
+}
